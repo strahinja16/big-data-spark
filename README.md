@@ -9,21 +9,21 @@ Step 3 : Rename the extracted file to `traffic-data`
 
 ## Spark MacOS
 Step 1 : Install Homebrew
-    /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+    `/usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”`
 
 Step 2 : Install xcode-select
-    xcode-select –install
+    `xcode-select –install`
 
-Step 3 : Install Java 1.8 sdk
+Step 3 : Install Java 1.8 sdk, 
     Installation guide at Oracle
 
 Step 4 : Install Spark
-    brew install apache-spark
+    `brew install apache-spark`
 
 Spark version 2.4.4 with hadoop 2.7
 
 ## Microsoft spark worker 
-Worker installed in `~/`
+Worker installed in `~/`, 
 Worker version 0.8.0
 
 ## Run project command
